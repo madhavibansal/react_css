@@ -1,0 +1,68 @@
+.App{
+  background-color: rgb(230, 221, 221);
+}
+
+.col{
+  background-color: rgb(17, 156, 211);
+  margin-left: 5px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+.navbar{
+  background-color: white;
+  height: 10px;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 260px;
+  position: absolute;
+  z-index: 1;
+  top:auto;
+  left: 0;
+  background-color: rgba(212, 231, 238, 0.952);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+
+.main {
+  margin-left: 260px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 550px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
